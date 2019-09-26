@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+    background: #111111;
+}
+
+header span{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    margin-left: -1px
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+nav ul{
+    display: flex;
+    margin: 5px 10px 0 0;
+    padding: 1px;
+}
+
+ul li{
+    list-style: none;
+    padding: 1px;
+    margin-left: 1em;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #ee4455;
+}
+span{
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+/* form */
+
+
+.form{
+    max-width: 700px;
+    /* margin: 2em auto; */
+    /* border: 1px solid #484848; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    display: block;
+    background: #111;
+    color: #fff;
+  }
+  #form2{
+      display: none;
+  }
+  label{
+      margin-top: 1em;
+  }
+  label,input{
+      
+      display: block;
+      margin-bottom: 5px;
+      width: 60%;
+      
+  }
+  input{ 
+       border-radius: 5px;
+      /*border-color: #313131; */
+      padding: .3rem;
+      border: none;
+  }
+  .btn-1{
+      margin-top: 1em;
+      border: none;
+      background: #e4e4e4;
+      color: #444;
+      width: 23%;
+      padding: 0.5em;
+  }

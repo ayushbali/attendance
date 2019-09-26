@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+    background: #111111;
+}
+
+header span{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    margin-left: -1px
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+nav ul{
+    display: flex;
+    margin: 5px 10px 0 0;
+    padding: 1px;
+}
+
+ul li{
+    list-style: none;
+    padding: 1px;
+    margin-left: 1em;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #ee4455;
+}
+span{
+    font-size: 24px;
+}
+.student{
+    margin-top: 3em;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em;
+    margin-bottom: 2em;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+button:hover{
+    cursor: pointer;
+}
+.student-1{
+    padding: .8em;
+    background: #ee4455;
+    color: #fff;
+}
+.teacher-1{
+    padding: .8em;
+    background: #ee4455;
+    color: #fff;
+}
+#student {
+    display: none;
+}
+h2{
+    text-align: center;
+    color: #7b8994;
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    font-weight: lighter;
+}
